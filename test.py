@@ -10,8 +10,6 @@ params = {
 # init app
 firebase_admin.initialize_app(cred, params)
 
-
-
 # set data
 ref = db.reference('/')
 ref.set({
